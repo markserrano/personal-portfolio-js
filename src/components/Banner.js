@@ -59,7 +59,7 @@ export const Banner = () => {
                 <h1>{`Hi! I'm Mark Hadrian Serrano`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>This is my Personal portfolio.</p>
                   
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
                 
               </div>}
             </TrackVisibility>
